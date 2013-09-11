@@ -2,6 +2,9 @@
 {-# LANGUAGE FlexibleContexts  #-}
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE TypeFamilies      #-}
+-- necessary for using the Vector instances,
+-- which we want to get specialized mapM_ etc
+{-# LANGUAGE OverlappingInstances #-}
 
 module Data.Foldable.Mono (
     MFoldable (..)

@@ -1,5 +1,5 @@
 name:                mono-foldable
-version:             0.1.0.1
+version:             0.1.0.2
 synopsis:            Folds for monomorphic containers
 description:         Like Data.Foldable, but works with ByteStrings too
 homepage:            http://github.com/JohnLato/mono-foldable
